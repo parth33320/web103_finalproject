@@ -1,0 +1,69 @@
+Capstone Project: Milestone 4
+Total Points: 21pts
+
+Required Features	Points
+Milestone 4 is 100% complete on Github Project Board	8
+Group completes all 5 reflection questions in the Milestone 4 file	5
+At least 2 completed features are listed in the progress report	2
+At least 2 features have GIFs showing off a corresponding feature	6
+Total
+21
+
+Unit 8: Milestone 4
+Overview
+In this milestone, you'll continue development of your web app, completing the issues you created in the last milestone, monitoring your project for any issues with scope creep, and recording your progress. Have at it!
+
+🔗 View an exemplar project - GOATPath
+GOATPath is a web app designed to help aspiring UX designers chart a path into the field. The app includes a list of tasks sorted into milestones, which come pre-loaded when the user creates a profile. The user can add, edit, and delete tasks. They can also spend their hard-earned $$$ on trophies in the trophy shop! Users can view their trophies in their trophy case on their profile page.
+
+🎯 Goals
+By the end of this assignment you will be able to...
+
+Plan, develop, and deploy a full-stack web application
+Collaborate on project development with a team
+This project is divided into five milestones, culminating in Demo Day where you will show off your hard work. In each unit, you will complete a checklist of tasks for the corresponding milestone by the due date. All milestone tasks and planning documents are included in the final project repository that you will fork during this unit.
+
+Milestone	Description
+1	Develop the concept for your app, write user stories, create a feature list, and set up a shared GitHub repo
+2	Create wireframes for at least three of your app's pages, construct an entity relationship diagram, and prepare to pitch your idea
+3	Pitch your idea, set up your GitHub repo with issues for your features, and begin development
+4	Continue development by completing issues in GitHub, fix bugs, etc.
+Final	Continue development by completing issues in GitHub, deploy web app to Render, prepare for Demo Day
+Demo Day	Show off your final app!
+Milestone 4 Instructions
+🧐 Watch out for scope creep! Scope creep occurs when a project expands beyond its initial goals and requirements. It often happens when new features are added to the project without being properly vetted or when developers change their minds about what they want the project to accomplish.
+To avoid scope creep, make sure you're sticking to the goals you intially outlined in your pitch. Make sure any changes are approved by all team members with proper consideration for how long they will take and how difficult they will be to implement. When in doubt, ask your peers or TA for a second opinion.
+
+This week, your major tasks will include:
+
+Continuing development of your app by completing issues from your GitHub project board.
+Recording GIFs of all features that have been completed by the due date.
+Documenting your progress in a progress report — a required, graded part of this milestone.
+
+With your group:
+
+Locate the milestones/milestone4.md document within your final project repository.
+Complete all tasks listed in milestones/milestone4.md, checking off each task within the document as you complete them. These tasks include:
+Update the completion percentage of each GitHub Milestone. The milestone for this unit (Milestone 4 - Unit 8) should be 100% completed when you submit for full points.
+In readme.md, check off the features you have completed in this unit by adding a ✅ emoji in front of the feature's name.
+Under each feature you have completed, include a GIF showing feature functionality.
+In milestones/milestone4.md, complete all five questions in the Reflection section.
+Create your Milestone 4 Progress Report:
+In the milestones/ directory of your repo, create a new file named progress_report_4.md.
+Copy the template below into that file, and fill in every section.
+🚨 Your progress report is where your GitHub project work gets graded. Graders read milestones/progress_report_4.md to award points for your milestone completion percentage and completed features — so record everything your team actually did. Keep each list item on its own line, replace the "Example:" lines with your own entries, and double-check the file before you submit. Work that isn't recorded in the report can't earn points.
+Copy this template into milestones/progress_report_4.md:
+
+# Milestone 4 Progress Report
+
+## Milestone 4 Completion
+Replace the blank before the percent sign with a number from 0 to 100.
+Completion percentage for Milestone 4 - Unit 8: %
+List each issue you completed this unit and the main file or folder where that work lives, one per line:
+- Example: User login - server/routes/auth.js
+- 
+
+## Features Completed This Unit
+List each feature you completed and checked off in readme.md this unit, one per line:
+- Example: Search events by category
+- 
