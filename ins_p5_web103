@@ -1,0 +1,164 @@
+Unit 5: Milestone 1
+Project Overview
+In this project, you will work with a group to create a fullstack web app on any topic of your choice. The world is your mollusk! While we do provide a project exemplar to give you a sense of the kinds of features you can create, you are free to design your own app for a use case you and your group are interested in. The only restriction on your app is that you must include the required features described in the section below. Here's an overview:
+
+Implement all baseline features
+Implement two custom features
+Implement zero or more stretch features
+🔗 View an exemplar project - GOATPath
+GOATPath is a web app designed to help aspiring UX designers chart a path into the field. The app includes a list of tasks sorted into milestones, which come pre-loaded when the user creates a profile. The user can add, edit, and delete tasks. They can also spend their hard-earned $$$ on trophies in the trophy shop! Users can view their trophies in their trophy case on their profile page.
+
+👀 Read the feature list carefully, as you and your group must complete 2 custom features in addition to the baseline features.
+🎯 Goals
+By the end of this assignment you will be able to...
+
+Plan, develop, and deploy a full-stack web application
+Collaborate on project development with a team
+This project is divided into five milestones, culminating in Demo Day where you will show off your hard work. In each unit, you will complete a checklist of tasks for the corresponding milestone by the due date. All milestone tasks and planning documents are included in the final project repository that you will fork during this unit.
+
+Milestone	Description
+1	Develop the concept for your app, write user stories, create a feature list, and set up a shared GitHub repo
+2	Create wireframes for at least three of your app's pages, construct an entity relationship diagram, and prepare to pitch your idea
+3	Pitch your idea, set up your GitHub repo with issues for your features, and begin development
+4	Continue development by completing issues in GitHub, fix bugs, etc.
+Final	Continue development by completing issues in GitHub, deploy web app to Render, prepare for Demo Day
+Demo Day	Show off your final app!
+✅ Baseline Features (MUST complete ALL)
+Complete all of the baseline features. These features use the core skills developed in this course, including designing a database schema, creating a server, and connecting a frontend to the server.
+
+The project includes an Express backend app and a React frontend app
+The project includes dynamic routes for both frontend and backend apps
+Backend Features
+
+The project includes at least one of each of the following database relationship in Postgres: one-to-many and many-to-many with a join table
+one-to-many
+many-to-many with a join table
+The project includes a well-designed RESTful API
+supports all four main request types for a single entity (e.g., tasks in a to-do list app): GET, POST, PATCH, and DELETE
+the user can view items, such as tasks
+the user can create a new item, such as a task
+the user can update an existing item by changing some or all of its values, such as changing the title of task
+the user can delete an existing item, such as a task
+Routes follow proper naming conventions
+The app includes the ability to reset the database to its default state
+Frontend Features
+
+The project includes at least one redirection
+e.g., users are able to navigate to a new page with a new URL within the app
+The project includes at least one interaction that the user can initiate and complete on the same page without navigating to a new page
+The project includes dynamic frontend routes created with React Router
+The app includes hierarchically designed React components
+Components are broken down into categories, including page and component types
+Corresponding container components and presenter components as appropriate
+The project is deployed on Render with all pages and features working
+The project is deployed on Render
+All pages and features that are visible to the user are working as intended
+🧐 What does "all pages and features working" mean?
+All features visible to the user must work as expected. Every button must respond appropriately, every link must lead to the corresponding page, and every form must be submittable with the resulting data reflected in the user interface. If a feature is not working as intended, it should be removed from the user interface.
+
+These features are truly baseline. You will likely have many more than one of certain requirements, such as GET requests, in your app. For any rubric item that requires at least one of a certain feature, include more as appropriate for your app.
+✅ Custom Features (MUST complete TWO)
+Choose at least two custom features to include in your app. These features will make your app stand out with a more custom look and functionality.
+
+The project gracefully handles errors
+The project includes a one-to-one database relationship
+The project includes a slide-out pane or modal as appropriate for your use case
+e.g., a pane or modal that pops up and covers the page content without navigating away from the current page
+The project includes a unique field within the join table
+The project includes a custom non-RESTful route with corresponding controller actions
+The project allows filtering and/or sorting as appropriate for your use case
+Data is automatically generated in response to a certain event or user action
+e.g., generating a default inventory for a new user starting a game or creating a starter set of tasks for a user creating a new task app account
+Data submitted via a POST or PATCH request is validated before the database is updated
+e.g., validating that an event is in the future before allowing a new event to be created
+Stretch Features
+We include these stretch features as ideas for how to expand your app. Not all of the features below are equally easy to implement. Some of the features in this list are quite tricky to implement and go beyond the scope of this course. You may opt to implement additional custom features in your app to personalize it even more in place of or in addition to stretch features.
+
+Make sure you have completed all your other required features first before attempting to implement these stretch features, as they may take significant time to get working.
+
+A subset of pages require the user to log in before accessing the content
+An authentication mechanism is present (GitHub OAuth or username/password with session/JWT)
+Protected route enforcement is present — some pages require login before accessing content
+Restrict available user options dynamically
+e.g., restricting available purchases based on a user's currency
+Show a spinner while a page or page element is loading
+Disable buttons and inputs during the form submission process
+Disable buttons after they have been clicked
+At least 75% of buttons in your app must exhibit this behavior to receive full credit
+Users can upload images to the app and have them be stored on a cloud service
+A user profile picture does NOT count for this rubric item only if the app also includes "Login via GitHub" functionality.
+Adding a photo via a URL does NOT count for this rubric item (for example, if the user provides a URL with an image to attach it to the post).
+Selecting a photo from a list of provided photos does NOT count for this rubric item.
+Toast messages deliver simple feedback in response to user events
+
+Milestone 1 Instructions
+Note: only one partner needs to fork the repository. Throughout this project, all team members should be working with the same repository, not their own copy.
+This week, your major tasks will include:
+
+Forking the final project repository and sharing it with your teammates
+Writing the description, purpose, and inspiration for your web app
+Developing user stories to nail down the user journeys and features you will support in your app
+Writing the initial technical feature list for the app to explain what you will need to design and develop
+
+With your group:
+
+Fork the WEB103 Final Project repository on GitHub. Make sure all team members have access to the repository.
+Locate the milestones/milestone1.md document within the forked repo.
+Complete all tasks listed in milestones/milestone1.md, checking off each task within the document as you complete them. These tasks include:
+Read and understand all required features
+Understand you must implement all baseline features and two custom features
+In readme.md: update app name to your app's name
+In readme.md: add all group members' names
+In readme.md: complete the Description and Purpose section
+In readme.md: complete the Inspiration section
+In readme.md: list a name and description for all features (minimum 6 for full points) you intend to include in your app (in future units, you will check off features as you complete them and add GIFs demonstrating the features)
+In planning/user_stories.md: add all user stories (minimum 10 for full points)
+In planning/user_stories.md: use 1-3 unique user roles in your user stories
+In the milestones/milestone_1.md document, complete all thre questions in the Reflection section
+
+Project Guides
+Each milestone includes project guides for the major components of that milestone. These contain detailed information about how to approach each component as well as tips and tricks.
+
+Check out each guide for this unit for info on each deliverable!
+
+📖 Read ahead (optional): You won't be creating GitHub issues or a project board until Milestone 3, but if you'd like a preview of how you'll manage development in GitHub, check out the GitHub Project Management guide now. It's optional supplementary reading — not required until Milestone 3.
+⭐ Milestone 1:
+⭐ Choosing a Theme
+⭐ Writing User Stories
+⭐ Writing Features
+Milestone 2:
+Writing a Pitch
+Wireframing
+Entity Relationship Diagrams
+Milestone 3:
+GitHub Project Management
+Milestone 4:
+Continue working on your app by completing issues in GitHub, fixing bugs, etc.
+Final Milestone:
+Demo Day Prep
+
+🔗 Additional Resources
+WEB103 Final Project repository
+PostgreSQL Documentation
+MDN Web Docs: JavaScript
+
+💡 Hints
+Help! I don't know where to start!
+
+Check the Project Guides for more information about each component for this unit's milestone.
+How should I organize my project files?
+
+Now that we're using a database, it's best to separate our backend files from our frontend files. Create a client folder that contains the files for your frontend and a server folder to contain the files for your backend.
+In your client folder, you might have a src folder that contains:
+an assets folder with any images or assets used in your web app
+a css folder with any CSS files
+a folder containing files to handle retrieving data from the database
+In your server folder, you might have
+a server file that sets up your backend server
+a config folder that contains the data for your database and setup files for your database
+a routes folder that contains files for routes
+I'm stuck on something!
+
+Don't just skip the Resources section.
+Review the AI debugging tips in the box below!
+Still need a little extra help getting started or running into an error? Try posting in the Class Slack Channel.
