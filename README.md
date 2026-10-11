@@ -31,48 +31,51 @@ Traditional ERP and supply chain software systems (like legacy SAP setups) suffe
 
 ## Technical Features
 
-### 1. ✅ Multi-Tenant Inventory Scoping & Data Isolation
+### ✅ 1. Multi-Tenant Inventory Scoping & Data Isolation
 - **Description:** Enforces strict data-level segregation using `tenant_id` scoping across all PostgreSQL database queries and backend Express middleware. Ensures users only view, query, and mutate inventory items belonging to their active tenant session.
 
-![Multi-Tenant Data Isolation](docs/assets/multi_tenant_isolation.gif)
-*Demonstration of strict multi-tenant scoping and session context switching between tenant accounts.*
+![Multi-Tenant Isolation Demo](docs/assets/multi_tenant_isolation.gif)
+*Figure 1: Demonstration of multi-tenant session switching and zero-trust data scoping.*
 
 ---
 
-### 2. ✅ Automated Purchase Order (PO) Generation on Stockouts
+### ✅ 2. Automated Purchase Order (PO) Generation on Stockouts
 - **Description:** Automatically generates formal Purchase Order (PO) records whenever an inventory item's quantity reaches zero (stockout condition). Fulfills automated data creation requirements by persisting new PO records directly into PostgreSQL.
 
-![Automated PO Generation on Stockout](docs/assets/po_generation.gif)
-*Demonstration of instant Purchase Order record generation triggered when inventory stock reaches zero.*
+![Automated PO Generation Demo](docs/assets/automated_po_generation.gif)
+*Figure 2: Automatic creation and persistence of Purchase Orders triggered upon inventory stockout.*
 
 ---
 
-### 3. ✅ Agent-to-Agent (A2A) Supplier Quote Negotiations
+### ✅ 3. Agent-to-Agent (A2A) Supplier Quote Negotiations
 - **Description:** Initiates asynchronous supplier quote requests and negotiation logs when stockout conditions occur, enabling automated procurement workflows between tenant admins and vendor supply partners.
 
-![A2A Supplier Quote Negotiations](docs/assets/a2a_negotiations.gif)
-*Demonstration of automated supplier quote request dispatching and negotiation log creation.*
+![A2A Supplier Negotiations Demo](docs/assets/a2a_supplier_negotiation.gif)
+*Figure 3: Asynchronous A2A supplier quote negotiation dispatch and Human-in-the-Loop review.*
 
 ---
 
-### 4. ✅ Relational Database Schema with PostgreSQL (1:M and M:M Relationships)
+### ✅ 4. Relational Database Schema with PostgreSQL (1:M and M:M Relationships)
 - **Description:** Built on a normalized PostgreSQL schema that models complex enterprise supply chain entities, including one-to-many relationships (e.g., Tenants to Inventory Items, Suppliers to Purchase Orders) and many-to-many relationships (e.g., Inventory Items to Suppliers via a junction table).
 
-![Relational Database CRUD Operations](docs/assets/database_relational_crud.gif)
-*Demonstration of PostgreSQL relational queries managing 1:M and M:M database operations.*
+![Relational Database Schema Demo](docs/assets/relational_schema_demo.gif)
+*Figure 4: PostgreSQL relational query execution across 1:M and M:M entities.*
 
 ---
 
-### 5. ✅ Express REST API with Full CRUD Operations
+### ✅ 5. Express REST API with Full CRUD Operations
 - **Description:** A robust Node.js/Express REST API exposing full CRUD capabilities (`GET`, `POST`, `PUT`, `DELETE`) for inventory records, purchase orders, suppliers, and tenant settings with comprehensive error handling and status codes.
 
+![Express REST API CRUD Demo](docs/assets/express_crud_api.gif)
+*Figure 5: Full CRUD RESTful API endpoints for inventory and supply chain operations.*
+
 ---
 
-### 6. ✅ React Frontend with Dynamic Routing & Interactive Modals/Slide-out Panes
+### ✅ 6. React Frontend with Dynamic Routing & Interactive Modals/Slide-out Panes
 - **Description:** A responsive React frontend built with React Router for dynamic page navigation. Features interactive modal dialogs and slide-out side panes for detailed inventory inspection, item creation/editing, database resets, and real-time loading spinners with button-disabling behavior during API requests.
 
-![React Interactive Table & Modals](docs/assets/react_ui_modals.gif)
-*Demonstration of interactive React slide-out panes, modal dialogs, and real-time loading state feedback.*
+![React Frontend Navigation & Modals Demo](docs/assets/react_frontend_modals.gif)
+*Figure 6: Interactive React UI featuring slide-out side panes, modals, and route transitions.*
 
 ---
 
