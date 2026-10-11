@@ -1,0 +1,83 @@
+apstone Project: Final Milestone
+Total Points: 65pts + 18 (Extra from Custom Required Features) + 19 (Stretch Features)
+
+59 points are from the Baseline Required Features, 6 from the Custom Required Features (the 2 required features at 3 points each), 19 from Stretch Features
+Required Features	Points
+The project includes an Express backend app and a React frontend app	5
+The project includes at least one of each of the following database relationship in Postgres: one-to-many and many-to-many with a join table	8
+The project includes a well-designed RESTful API	15
+The app includes the ability to reset the database to its default state	4
+The project includes at least one redirection	3
+The project includes at least one interaction that the user can initiate and complete on the same page without navigating to a new page	3
+The project includes dynamic frontend routes created with React Router	4
+The app includes hierarchically designed React components	6
+The project includes dynamic routes for both frontend and backend apps	3
+The project is deployed on Render with all pages and features working	8
+Total
+59
+You must complete at least two custom features. Each custom feature is worth 3 points, awarded all-or-nothing. Database-relationship features are credited from the schema actually implemented in your app, not from your entity-relationship diagram.
+Custom Required Features	Points
+The project gracefully handles errors	3
+The project includes a one-to-one database relationship	3
+The project includes a slide-out pane or modal as appropriate for your use case	3
+The project includes a unique field within the join table	3
+The project includes a custom non-RESTful route with corresponding controller actions	3
+The project allows filtering and/or sorting as appropriate for your use case	3
+Data is automatically generated in response to a certain event or user action	3
+Data submitted via a POST or PATCH request is validated before the database is updated	3
+Total
+24
+Stretch Features	Points
+A subset of pages require the user to log in before accessing the content	3
+Restrict available user options dynamically	3
+Show a spinner while a page or page element is loading	2
+Disable buttons and inputs during the form submission process	2
+Disable buttons after they have been clicked	2
+Users can upload images to the app and have them be stored on a cloud service	4
+Toast messages deliver simple feedback in response to user events	3
+Total
+19
+
+Unit 9: Final Milestone
+Overview
+It's the last unit of development and the last milestone before Demo Day! Can you believe you're almost there? In this milestone, you'll continue development of your web app, completing the issues you created in the last milestone, monitoring your project for any issues with scope creep, and recording your progress. You'll also deploy your app on Render and get prepared for Demo Day, the culmination of all your hard work where you get to show off your original web app!
+
+🔗 View an exemplar project - GOATPath
+GOATPath is a web app designed to help aspiring UX designers chart a path into the field. The app includes a list of tasks sorted into milestones, which come pre-loaded when the user creates a profile. The user can add, edit, and delete tasks. They can also spend their hard-earned $$$ on trophies in the trophy shop! Users can view their trophies in their trophy case on their profile page.
+
+🎯 Goals
+By the end of this assignment you will be able to...
+
+Plan, develop, and deploy a full-stack web application
+Collaborate on project development with a team
+This project is divided into five milestones, culminating in Demo Day where you will show off your hard work. In each unit, you will complete a checklist of tasks for the corresponding milestone by the due date. All milestone tasks and planning documents are included in the final project repository that you will fork during this unit.
+
+Milestone	Description
+1	Develop the concept for your app, write user stories, create a feature list, and set up a shared GitHub repo
+2	Create wireframes for at least three of your app's pages, construct an entity relationship diagram, and prepare to pitch your idea
+3	Pitch your idea, set up your GitHub repo with issues for your features, and begin development
+4	Continue development by completing issues in GitHub, fix bugs, etc.
+Final	Continue development by completing issues in GitHub, deploy web app to Render, prepare for Demo Day
+Demo Day	Show off your final app!
+Final Milestone Instructions
+This is the final week of development, as well as the week where you will submit your final app for grading! This week, your major tasks will include:
+
+Continuing development of your app by completing issues from your GitHub project board.
+Recording GIFs of all features that have been completed by the due date.
+Deploying your web app via Render.
+🚩 Completing the Final Project Feature Checklist of baseline, custom, and stretch features you implemented in your app.
+🚩 Recording a GIF showing a complete run-through of your app that displays all the components included in the Final Project Feature Checklist.
+
+With your group:
+
+Locate the milestones/milestone5.md document within your final project repository.
+Deploy your project on Render.
+In readme.md, add the link to your deployed project.
+Complete all tasks listed in milestones/milestone5.md, checking off each task within the document as you complete them. These tasks include:
+Update the status of issues in your project board as you complete them.
+In readme.md, check off the features you have completed in this unit by adding a ✅ emoji in front of their title.
+Under each feature you have completed, include a GIF showing feature functionality.
+In milestones/milestone5.md, complete the Reflection section.
+Complete the final project grading tasks listed in milestones/milestone5.md. These tasks include:
+🚩 In milestones/milestone5.md, complete the Final Project Feature Checklist section, detailing each feature you completed in the project (ONLY include features you implemented, not features you planned).
+🚩 In milestones/milestone5.md, include a GIF showing a complete run-through of your app that displays all the components included in the Final Project Feature Checklist.
