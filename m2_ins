@@ -1,0 +1,56 @@
+Capstone Project: Milestone 2
+Total Points: 15pts
+
+Required Features	Points
+Wireframes file includes a list of at least 3 pages in the app	1
+Wireframes file includes at least 3 wireframes	6
+Entity Relationship Diagram File includes a list of tables	1
+Entity Relationship Diagram File includes diagram	4
+Group completes all 3 reflection questions in the Milestone 2 file	3
+Total
+15
+
+Unit 6: Milestone 2
+Overview
+Welcome to the second milestone of the final project! In this final unit before development begins, you will create the visuals for your app and prep for your pitch next class! About the pitch: you will have three minutes to share your web app plan with your classmates, instructor, and TAs in smaller breakout rooms. You will receive feedback from your peers and TA to help guide development for your app.
+
+🔗 View an exemplar project - GOATPath
+GOATPath is a web app designed to help aspiring UX designers chart a path into the field. The app includes a list of tasks sorted into milestones, which come pre-loaded when the user creates a profile. The user can add, edit, and delete tasks. They can also spend their hard-earned $$$ on trophies in the trophy shop! Users can view their trophies in their trophy case on their profile page.
+
+🎯 Goals
+By the end of this assignment you will be able to...
+
+Plan, develop, and deploy a full-stack web application
+Collaborate on project development with a team
+This project is divided into five milestones, culminating in Demo Day where you will show off your hard work. In each unit, you will complete a checklist of tasks for the corresponding milestone by the due date. All milestone tasks and planning documents are included in the capstone project repository that you will fork during this unit.
+
+Milestone	Description
+1	Develop the concept for your app, write user stories, create a feature list, and set up a shared GitHub repo
+2	Create wireframes for at least three of your app's pages, construct an entity relationship diagram, and prepare to pitch your idea
+3	Pitch your idea, set up your GitHub repo with issues for your features, and begin development
+4	Continue development by completing issues in GitHub, fix bugs, etc.
+Final	Continue development by completing issues in GitHub, deploy web app to Render, prepare for Demo Day
+Demo Day	Show off your final app!
+Milestone 2 Instructions
+🔍 As you plan your app, remember that you must implement the required features:
+All baseline features
+Two custom features
+Zero or more stretch features
+This week, your major tasks will include:
+
+Sketching wireframes for at least three different pages in your web app and add them to the corresponding document in your repo's planning folder.
+You may hand-sketch or use a digital design tool to create your wireframes. Either way, embed an image of each wireframe (a screenshot or export) directly in planning/wireframes.md — a link to Figma or another tool on its own does not count.
+Creating an entity relationship diagram to visualize the data involved in your web app and add it to the corresponding document in your repo's planning folder.
+Developing your three-minute pitch presentation, to be presented in the next unit.
+
+With your group:
+
+Locate the milestones/milestone2.md document within your final project repository.
+Complete all tasks listed in milestones/milestone2.md, checking off each task within the document as you complete them. These tasks include:
+In planning/wireframes.md: add wireframes for at least three pages in your web app.
+Include a list of at least 3 pages in your app
+In planning/entity_relationship_diagram.md: add the entity relationship diagram you developed for your database.
+Your entity relationship diagram should include the tables in your database.
+Prepare your three-minute pitch presentation, to be presented during Unit 7 (the next unit).
+You do not need to submit any materials in advance of your pitch.
+In milestones/milestone2.md, complete all three questions in the Reflection section.
